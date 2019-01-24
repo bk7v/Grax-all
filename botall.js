@@ -242,6 +242,25 @@ if (message.content === "-help") {
     })
     }
 });
+	
+	
+	
+	
+	
+client.on('guildMemberAdd', member=> {
+    member.setNickname(`Grax|| ${member.user.username}`)
+});
+	
+	
+
+	
+client.on('guildMemberAdd', member=> {
+    var role = member.guild.roles.find("name","𝐌𝐄𝐌𝐁𝐄𝐑𝐒");
+    member.addRole(role);
+});
+
+	
+	
 
             client.on("message", (message) => {
                         if (message.channel.type === "dm") {
