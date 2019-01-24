@@ -17,7 +17,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by n3k4a & Baron','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: n3k4a & Hosam | BaronTube'];
+    var setGame = [`${client.guilds.size} Server`,' Grax-bot by bk7-v','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: n3k4a & Hosam | BaronTube'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -568,8 +568,8 @@ client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot :heart: جميع الحقوق محفوظة 2018 لــبوت')
-      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `https://modest-lewin-146a75.netlify.com`)
+      .setFooter('@ Grax-All :heart: جميع الحقوق محفوظة 2018 لــبوت')
+      .addField('شكرا لك لاستخدامك ل جراكس بوت', `https://discordapp.com/oauth2/authorize?client_id=538000673174978570&permissions=0&scope=bot`)
   message.author.send({embed});
 
  }
@@ -609,8 +609,8 @@ client.on("message", message => {
       .setTitle('Click here')
       .setURL(' https://discord.gg/ZnPDHaA ')
       .setColor("RANDOM")
-      .setFooter('© Premium Bot :heart: جميع الحقوق محفوظة 2018 لــبوت')  
-      .addField('سيرفر الدعم الفني', ` https://discord.gg/ZnPDHaA  `)
+      .setFooter('@ Grax-All :heart: جميع الحقوق محفوظة 2018 لــبوت')  
+      .addField('سيرفر الدعم الفني', ` https://discord.gg/AgRSnMP  `)
   message.author.send({embed});
 
  }
